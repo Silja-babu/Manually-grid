@@ -18,8 +18,7 @@ generateEl.addEventListener('click',()=>{
         for(let i =0; i<row*column; i++){
             const matrixGrid = document.createElement('div')
             matrixGrid.classList.add('box-make')
-            gridMake.appendChild(matrixGrid)
-            
+            gridMake.appendChild(matrixGrid)   
         }
         const boxEl=document.querySelectorAll('.box-make')
         //console.log(boxEl)
